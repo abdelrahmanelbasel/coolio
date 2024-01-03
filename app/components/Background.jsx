@@ -29,11 +29,11 @@ export const Background = () => {
     <>
       <Script
         src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"
-        onLoad={() => setThreeLoaded(true)}
+        onLoad={() => setTimeout(() => {setThreeLoaded(true)}, 1000)}
       />
       <Script
         src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"
-        onLoad={() => setVantaLoaded(true)}
+        onLoad={() => setTimeout(() => {setVantaLoaded(true)}, 1000)}
       />
       <div
         id="vanta-background"
