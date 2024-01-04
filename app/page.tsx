@@ -24,7 +24,6 @@ export default function Home() {
       }}>The Best Trainer ❤️</h2>
       <div className="absolute left-0 bottom-0 z-10 pointer-events-none flex gap-5 text-white items-center">
         <img src="/dalia.png" alt="" className="rounded-full aspect-square w-16 h-16 overflow-hidden"/>
-        <p>Dalia Mohammed</p>
       </div>
     </main>
   );
