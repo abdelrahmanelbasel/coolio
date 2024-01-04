@@ -23,6 +23,9 @@ export default function Home() {
       <h2 className="italic text-4xl z-10 pointer-events-none text-red-500 animate-in fade-in zoom-in" style={{
         animationDuration: "2500ms"
       }}>The Best Trainer ❤️</h2>
+      <div className="absolute bottom-0 left-0 px-4 py-2 italic text-white font-mono">
+        From ASDA Wave 15 ❤️
+      </div>
     </main>
   );
 }
