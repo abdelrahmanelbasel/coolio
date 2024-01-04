@@ -16,8 +16,12 @@ export default function Home() {
   return (
     <main className="flex flex-col justify-center gap-4 items-center h-screen w-screen overflow-hidden">
       <Background />
-      <h1 className={twMerge("text-6xl font-extrabold text-blue-400", notoClassName)}>Thank You Ya Dalia</h1>
-      <h2 className="italic text-4xl text-red-500">The Best Trainer ❤️</h2>
+      <h1 className={twMerge("text-6xl pointer-events-none z-10 font-extrabold text-blue-400 animate-in fade-in", notoClassName)} style={{
+        animationDuration: "2000ms"
+      }}>Thank You Ya Dalia</h1>
+      <h2 className="italic text-4xl z-10 pointer-events-none text-red-500 animate-in fade-in zoom-in" style={{
+        animationDuration: "2500ms"
+      }}>The Best Trainer ❤️</h2>
     </main>
   );
 }
