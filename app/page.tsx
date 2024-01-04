@@ -16,15 +16,13 @@ export default function Home() {
   return (
     <main className="flex flex-col justify-center gap-4 items-center h-screen w-screen overflow-hidden">
       <Background />
+      <img src="/dalia.png" alt="" className="z-10 border-4 border-white pointer-events-none rounded-full aspect-square w-16 h-16 overflow-hidden"/>
       <h1 className={twMerge("text-6xl pointer-events-none z-10 font-extrabold text-blue-400 animate-in fade-in", notoClassName)} style={{
         animationDuration: "2000ms"
-      }}>Thank You Ya Dalia</h1>
+      }}>Thank You Dalia</h1>
       <h2 className="italic text-4xl z-10 pointer-events-none text-red-500 animate-in fade-in zoom-in" style={{
         animationDuration: "2500ms"
       }}>The Best Trainer ❤️</h2>
-      <div className="absolute left-0 bottom-0 z-10 pointer-events-none flex gap-5 text-white items-center">
-        <img src="/dalia.png" alt="" className="rounded-full aspect-square w-16 h-16 overflow-hidden"/>
-      </div>
     </main>
   );
 }
